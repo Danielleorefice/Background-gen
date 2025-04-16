@@ -1,0 +1,49 @@
+/* Selector { property: value; } */
+
+body {
+  background-color: #f2f2f2; /* Light grey background */
+}
+
+h1 {
+  color: #6C5C56;
+  text-align: center;
+  cursor: pointer;
+}
+
+h2 {
+  color: darkgray;
+  text-align: center;
+}
+
+.button-group {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav-button {
+  background-color: #6C5C56;
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #5a4a44;
+}
+
+p {
+  color: #7B6D68;
+  text-align: center;
+}
+
+.center-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+}
